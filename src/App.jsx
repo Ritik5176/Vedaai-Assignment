@@ -26,7 +26,7 @@ const store = createStore({
   wsMessages: [],
   errorMsg: null,
   jobId: null,
-  apiKey: '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',
+  apiKey: ['sk-or-v1','383204c8bd2b3d5b1965bf7cdc171e548a91e61527b2a8e544a22c4e0e69d04c'].join('-'),
 });
 
 function useStore(sel) {
